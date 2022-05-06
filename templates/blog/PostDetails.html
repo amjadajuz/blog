@@ -1,0 +1,11 @@
+{% extends 'blog/base.html' %}
+{% block content %}
+<div class="container p-5">
+    <div class="border p-3 rounded shadow">
+        <i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i>
+        <h5 class="text-center text-dark">{{post.title}}</h5>
+        <hr>
+        <p>{{post.content}}</p>
+    </div>
+</div>
+{% endblock %}
